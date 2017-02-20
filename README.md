@@ -376,3 +376,22 @@ The worst case steps that would be needed to find a word is 5
 2. You will be required to create graphs to present your data. If you're at a loss for what to use, we recommend using google spreadsheets or excel to create graphs you can copy and paste, or hand-drawing really nicely and copying the image from MS paint (we won't judge)--whatever suits you.
 3. Naturally you must make sure that  your explanations are clear, your writing/typing is legible, and your graphs are neat, organized, and fitting.
 4. Please be kind to the graders and be as concise and organized in your answers as possible. We want you to articulate, but we aren't looking for a novel by Charles Dickens.
+
+## Acknowledgement
+
+#### Special thanks to the Gui team:
+* Galen Krulce
+* Huajie Ajax Wu
+* Becky Huayin Zhou
+* Raymond Shi
+
+For without them, the GUI for this PA would not be possible. They have gone through long, hard nights and learned how to code in QT from scratch to produce this beautiful code in roughly a week. All the while they put up with spontaneous source file changes, my design suggestions and my lack of punctuality, and they made sure this GUI launched with the assignment. For any students who read this, please let any of the GUI team that you see know that they are awesome and are dripping with awesomesauce. --Jor-el
+
+#### Dictionaries were extracted and processed from:
+
+http://www.wordfrequency.info
+http://www.ngrams.info/
+https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists#Top_English_words_lists
+http://www.becomeawordgameexpert.com/dictionary.htm
+
+Because we need to cite them to not be sued.
