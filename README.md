@@ -18,7 +18,7 @@ In this assignment you will:
 * 3 points for the `benchhash` program
 * 7 points for `FinalReport.pdf`
 * 2 points for code that is free of memory leaks
-* 3 points for Commenting,style and a good object-oriented design (see the minimal style guide)
+* 3 points for Commenting,style and a good object-oriented design (see the [minimal style guide](https://sites.google.com/a/eng.ucsd.edu/cse-100-fall-2016/Programming-Resources/cse-100-minimal-style-guide))
 
 #### Some caveats:
 * **IMPORTANT**: Tables and graphs of experimental results, and transcripts in your FinalReport.pdf, must be genuine and not misleading.  It may happen that some of your code or algorithms do not work correctly.  In this case you must mention and explain this situation in documentation and reports. Faking data/ Copying somebody else's plot is a serious violation of the academic Integrity Policy of CSE 100.
@@ -39,7 +39,7 @@ Any code that does not compile, or segfaults, or does not create any objects wil
 * FinalReport.pdf
 
 ## Setup
-Please follow the instructions provided in this PPT to get started with the set-up of this assignment.
+Please follow the instructions provided in this [PPT](https://docs.google.com/presentation/d/1F9PRR2ALLJp_u-rc9HSNVNe-CpVEogwnxGi5Ygn4ahg/edit#slide=id.g17deebc9a1_2_49) to get started with the set-up of this assignment.
 
 * Provided files in repo:
  * Makefile
@@ -47,7 +47,7 @@ Please follow the instructions provided in this PPT to get started with the set-
  * DictionaryBST.h/cpp
  * DictionaryHashtable.h/cpp
  * util.h/cpp
- * test.cpp (more info)
+ * test.cpp ([more info](https://docs.google.com/a/eng.ucsd.edu/document/d/1MIlAFm0hTCco6-MOX90inTuuyQ48SJMkjyFeb-fQvho/edit?usp=sharing))
 
 
 * Files provided in ieng6 :  
@@ -77,7 +77,7 @@ DO NOT edit any of the function signatures, or remove any of the provided code. 
 
 #### DictionaryBST
 
-This class must use a balanced binary search tree to store the words in the dictionary. However, this should be easy, because the C++ STL set uses a balanced BST (a red-black tree, specifically) to store its elements. So all you need to do is use a C++ set to store the words in the dictionary.   
+This class must use a balanced binary search tree to store the words in the dictionary. However, this should be easy, because the C++ STL [set]http://www.cplusplus.com/reference/set/set/ uses a balanced BST (a red-black tree, specifically) to store its elements. So all you need to do is use a C++ [set](http://www.cplusplus.com/reference/set/set/) to store the words in the dictionary.   
 
 If implementing this class feels too simple, you're probably doing it right.
 
@@ -92,7 +92,7 @@ You will find it helpful to look at the files DictionaryBST.h for more thorough 
 
 #### DictionaryHashtable
 
-This class must use a hashtable data structure to store the words in the dictionary.  However, this should be be easy, because the C++ STL unordered_set uses a hashset (i.e. a set implemented with a hashtable) to store its elements. So all you need to do is use an  C++ unordered_set to store the words in the dictionary.  
+This class must use a hashtable data structure to store the words in the dictionary.  However, this should be be easy, because the C++ STL [unordered_set](http://www.cplusplus.com/reference/unordered_set/unordered_set/) uses a hashset (i.e. a set implemented with a hashtable) to store its elements. So all you need to do is use an  C++ [unordered_set](http://www.cplusplus.com/reference/unordered_set/unordered_set/) to store the words in the dictionary.  
 
 If implementing this class feels too simple, you're probably doing it right.
 
@@ -109,7 +109,9 @@ You will find it helpful to look at the files DictionaryHashtable.h for more tho
 
 This class must use either a **Multiway Trie** or a **Ternary Search Tree** to store the words in the dictionary, and you must implement this data structure from scratch. Implementing this class will not be as trivial as implementing the other two.   
 
-Note that you will likely need to implement additional classes and/or methods to support your Trie implementation (e.g. some kind of Node class). If you choose to do so, place their declarations and definitions in the existing .h and .cpp files.  You should not create any new files. If you add new files, your code will not work with the provided GUI and will fail the test cases on Vocareum.
+**Note that you will likely need to implement additional classes and/or methods to support your Trie implementation (e.g. some kind of Node class). If you choose to do so, place their declarations and definitions in the existing .h and .cpp files.  You should not create any new files.**
+
+If you add new files, your code will not work with the provided GUI and will fail the test cases on Vocareum.
 
 ##### Implementation Checklist:
 
@@ -198,7 +200,7 @@ For step 2, an *exhaustive search* through the subtree is a simple approach. One
 #### Implementation Checklist:
 
 * Add test cases in ```test.cpp``` and ensure that the autocomplete functionality works. You may use the same dictionary files and util functions as the checkpoint.
-* Test your code with the provided GUI. This document has the instructions to test your program with the GUI.
+* Test your code with the provided GUI. [This document](https://docs.google.com/document/d/1zlWET448MRtjjbnOP4bUSXNj3dJiPpXJlhWl5rH82jE/edit) has the instructions to test your program with the GUI.
 
  **Note:** We are NOT grading the GUI, or your ability to get the GUI working. The GUI is just for your benefit,  because we thought it would be cool to have so you can see your own algorithm in action. It is okay if you do not test your program with the GUI.
 
